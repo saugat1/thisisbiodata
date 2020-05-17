@@ -1,0 +1,43 @@
+.form{
+  box-sizing: border-box;
+  font-size: 18px;
+
+}
+input[type="text"], input[type="email"], input[type="radio"]{
+  height: 30px;
+  width: 70%;
+  outline: none;
+  border: 1px solid blue;
+  font-size: 16px;
+}
+
+.form #selectGender{
+  height: 30px;
+  outline: none;
+}
+.form option{
+  height: 30px;
+}
+
+.form button{
+  padding: 10px;
+  background: blue;
+  color: white;
+  outline: none;
+  font-size: 20px;
+  border:1px solid green;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.form button:active{
+  transform: translate(2px);
+}
+.form input[type="checkbox"]{
+  font-size: 14px;
+}
+.form label{
+  width: 250px;
+  display: inline-block;
+}
